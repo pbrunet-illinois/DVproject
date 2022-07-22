@@ -1,0 +1,608 @@
+,work_year,experience_level,job_title,salary_in_usd,employee_residence_Full,company_size
+0,2020,Mid-level,Data Scientist,"$79,833.00 ",Germany,Large
+1,2020,Intermediate-level,Machine Learning Scientist,"$260,000.00 ",Japan,Small
+2,2020,Intermediate-level,Big Data Engineer,"$109,024.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+3,2020,Mid-level,Product Data Analyst,"$20,000.00 ",Honduras,Small
+4,2020,Intermediate-level,Machine Learning Engineer,"$150,000.00 ",United States of America (the),Large
+5,2020,Entry-level,Data Analyst,"$72,000.00 ",United States of America (the),Large
+6,2020,Intermediate-level,Lead Data Scientist,"$190,000.00 ",United States of America (the),Small
+7,2020,Mid-level,Data Scientist,"$35,735.00 ",Hungary,Large
+8,2020,Mid-level,Business Data Analyst,"$135,000.00 ",United States of America (the),Large
+9,2020,Intermediate-level,Lead Data Engineer,"$125,000.00 ",New Zealand,Small
+10,2020,Entry-level,Data Scientist,"$51,321.00 ",France,Small
+11,2020,Mid-level,Data Scientist,"$40,481.00 ",India,Large
+12,2020,Entry-level,Data Scientist,"$39,916.00 ",France,Medium
+13,2020,Mid-level,Lead Data Analyst,"$87,000.00 ",United States of America (the),Large
+14,2020,Mid-level,Data Analyst,"$85,000.00 ",United States of America (the),Large
+15,2020,Mid-level,Data Analyst,"$8,000.00 ",Pakistan,Large
+16,2020,Entry-level,Data Engineer,"$41,689.00 ",Japan,Small
+17,2020,Intermediate-level,Big Data Engineer,"$114,047.00 ",Poland,Small
+18,2020,Entry-level,Data Science Consultant,"$5,707.00 ",India,Medium
+19,2020,Mid-level,Lead Data Engineer,"$56,000.00 ",Portugal,Medium
+20,2020,Mid-level,Machine Learning Engineer,"$43,331.00 ",China,Medium
+21,2020,Mid-level,Product Data Analyst,"$6,072.00 ",India,Large
+22,2020,Intermediate-level,Data Engineer,"$47,899.00 ",Greece,Large
+23,2020,Mid-level,BI Data Analyst,"$98,000.00 ",United States of America (the),Medium
+24,2020,Mid-level,Lead Data Scientist,"$115,000.00 ",United Arab Emirates (the),Large
+25,2020,Executive,Director of Data Science,"$325,000.00 ",United States of America (the),Large
+26,2020,Entry-level,Research Scientist,"$42,000.00 ",Netherlands (the),Large
+27,2020,Intermediate-level,Data Engineer,"$33,511.00 ",Mexico,Small
+28,2020,Entry-level,Business Data Analyst,"$100,000.00 ",United States of America (the),Large
+29,2020,Intermediate-level,Machine Learning Manager,"$117,104.00 ",Canada,Large
+30,2020,Mid-level,Data Engineering Manager,"$59,303.00 ",Germany,Small
+31,2020,Entry-level,Big Data Engineer,"$70,000.00 ",United States of America (the),Large
+32,2020,Intermediate-level,Data Scientist,"$68,428.00 ",Greece,Large
+33,2020,Mid-level,Research Scientist,"$450,000.00 ",United States of America (the),Medium
+34,2020,Mid-level,Data Analyst,"$46,759.00 ",France,Large
+35,2020,Mid-level,Data Engineer,"$74,130.00 ",Austria,Large
+36,2020,Mid-level,Data Science Consultant,"$103,000.00 ",United States of America (the),Large
+37,2020,Entry-level,Machine Learning Engineer,"$250,000.00 ",United States of America (the),Large
+38,2020,Entry-level,Data Analyst,"$10,000.00 ",Nigeria,Small
+39,2020,Entry-level,Machine Learning Engineer,"$138,000.00 ",United States of America (the),Small
+40,2020,Mid-level,Data Scientist,"$45,760.00 ",Philippines (the),Small
+41,2020,Executive,Data Engineering Manager,"$79,833.00 ",Spain,Large
+42,2020,Mid-level,Machine Learning Infrastructure Engineer,"$50,180.00 ",Portugal,Medium
+43,2020,Mid-level,Data Engineer,"$106,000.00 ",United States of America (the),Large
+44,2020,Mid-level,Data Engineer,"$112,872.00 ",United Kingdom of Great Britain and Northern Ireland (the),Large
+45,2020,Entry-level,ML Engineer,"$15,966.00 ",Germany,Small
+46,2020,Mid-level,Data Scientist,"$76,958.00 ",United Kingdom of Great Britain and Northern Ireland (the),Small
+47,2020,Intermediate-level,Data Engineer,"$188,000.00 ",United States of America (the),Large
+48,2020,Mid-level,Data Scientist,"$105,000.00 ",United States of America (the),Large
+49,2020,Mid-level,Data Engineer,"$70,139.00 ",France,Large
+50,2020,Entry-level,Data Analyst,"$6,072.00 ",India,Small
+51,2020,Entry-level,Data Analyst,"$91,000.00 ",United States of America (the),Large
+52,2020,Entry-level,AI Scientist,"$45,896.00 ",Denmark,Small
+53,2020,Entry-level,Data Engineer,"$54,742.00 ",Pakistan,Large
+54,2020,Intermediate-level,Computer Vision Engineer,"$60,000.00 ",Russian Federation (the),Small
+55,2020,Intermediate-level,Principal Data Scientist,"$148,261.00 ",Germany,Medium
+56,2020,Mid-level,Data Scientist,"$38,776.00 ",Spain,Medium
+57,2020,Mid-level,Data Scientist,"$118,000.00 ",United States of America (the),Medium
+58,2020,Intermediate-level,Data Scientist,"$120,000.00 ",United States of America (the),Large
+59,2020,Mid-level,Data Scientist,"$138,350.00 ",United States of America (the),Medium
+60,2020,Mid-level,Data Engineer,"$110,000.00 ",United States of America (the),Large
+61,2020,Mid-level,Data Engineer,"$130,800.00 ",Spain,Medium
+62,2020,Entry-level,Data Scientist,"$21,669.00 ",Italy,Small
+63,2020,Intermediate-level,Data Scientist,"$412,000.00 ",United States of America (the),Large
+64,2020,Intermediate-level,Machine Learning Engineer,"$45,618.00 ",Croatia,Small
+65,2020,Entry-level,Data Scientist,"$62,726.00 ",Germany,Small
+66,2020,Entry-level,Data Scientist,"$49,268.00 ",Germany,Small
+67,2020,Intermediate-level,Data Science Manager,"$190,200.00 ",United States of America (the),Medium
+68,2020,Entry-level,Data Scientist,"$105,000.00 ",United States of America (the),Small
+69,2020,Intermediate-level,Data Scientist,"$91,237.00 ",Austria,Small
+70,2020,Mid-level,Data Scientist,"$62,726.00 ",France,Small
+71,2020,Mid-level,Data Scientist,"$42,197.00 ",France,Small
+72,2021,Entry-level,Research Scientist,"$82,528.00 ",United Kingdom of Great Britain and Northern Ireland (the),Large
+73,2021,Executive,BI Data Analyst,"$150,000.00 ",India,Large
+74,2021,Executive,Head of Data,"$235,000.00 ",United States of America (the),Large
+75,2021,Intermediate-level,Data Scientist,"$53,192.00 ",France,Large
+76,2021,Mid-level,BI Data Analyst,"$100,000.00 ",United States of America (the),Medium
+77,2021,Mid-level,3D Computer Vision Researcher,"$5,409.00 ",India,Medium
+78,2021,Mid-level,ML Engineer,"$270,000.00 ",United States of America (the),Large
+79,2021,Entry-level,Data Analyst,"$80,000.00 ",United States of America (the),Medium
+80,2021,Intermediate-level,Data Analytics Engineer,"$79,197.00 ",Germany,Large
+81,2021,Mid-level,Data Engineer,"$140,000.00 ",United States of America (the),Large
+82,2021,Mid-level,Applied Data Scientist,"$54,238.00 ",United Kingdom of Great Britain and Northern Ireland (the),Large
+83,2021,Mid-level,Machine Learning Engineer,"$47,282.00 ",Spain,Small
+84,2021,Executive,Director of Data Science,"$153,667.00 ",Italy,Large
+85,2021,Mid-level,Data Engineer,"$28,476.00 ",Poland,Large
+86,2021,Entry-level,Data Analyst,"$59,102.00 ",France,Medium
+87,2021,Mid-level,Data Analytics Engineer,"$110,000.00 ",United States of America (the),Large
+88,2021,Intermediate-level,Lead Data Analyst,"$170,000.00 ",United States of America (the),Large
+89,2021,Intermediate-level,Data Analyst,"$80,000.00 ",Bulgaria,Small
+90,2021,Intermediate-level,Marketing Data Analyst,"$88,654.00 ",Greece,Large
+91,2021,Entry-level,Data Science Consultant,"$76,833.00 ",Germany,Small
+92,2021,Mid-level,Lead Data Analyst,"$19,609.00 ",India,Large
+93,2021,Intermediate-level,Lead Data Engineer,"$276,000.00 ",United States of America (the),Large
+94,2021,Entry-level,Data Scientist,"$29,751.00 ",India,Large
+95,2021,Mid-level,Cloud Data Engineer,"$89,294.00 ",Singapore,Large
+96,2021,Entry-level,AI Scientist,"$12,000.00 ",Brazil,Small
+97,2021,Mid-level,Financial Data Analyst,"$450,000.00 ",United States of America (the),Large
+98,2021,Entry-level,Computer Vision Software Engineer,"$70,000.00 ",United States of America (the),Medium
+99,2021,Mid-level,Computer Vision Software Engineer,"$95,746.00 ",Germany,Small
+100,2021,Mid-level,Data Analyst,"$75,000.00 ",United States of America (the),Large
+101,2021,Intermediate-level,Data Engineer,"$150,000.00 ",United States of America (the),Large
+102,2021,Mid-level,BI Data Analyst,"$36,259.00 ",Hungary,Large
+103,2021,Mid-level,Data Analyst,"$62,000.00 ",United States of America (the),Large
+104,2021,Mid-level,Data Scientist,"$73,000.00 ",United States of America (the),Large
+105,2021,Mid-level,Data Analyst,"$51,519.00 ",United Kingdom of Great Britain and Northern Ireland (the),Large
+106,2021,Mid-level,Research Scientist,"$187,442.00 ",Canada,Large
+107,2021,Intermediate-level,Data Engineer,"$115,000.00 ",United States of America (the),Small
+108,2021,Intermediate-level,Data Engineer,"$150,000.00 ",United States of America (the),Medium
+109,2021,Entry-level,Data Engineer,"$30,428.00 ",India,Large
+110,2021,Intermediate-level,Machine Learning Engineer,"$94,564.00 ",Germany,Large
+111,2021,Intermediate-level,Director of Data Engineering,"$113,476.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+112,2021,Intermediate-level,Lead Data Engineer,"$103,160.00 ",United Kingdom of Great Britain and Northern Ireland (the),Small
+113,2021,Entry-level,AI Scientist,"$12,000.00 ",Pakistan,Medium
+114,2021,Mid-level,Data Engineer,"$45,391.00 ",Netherlands (the),Large
+115,2021,Entry-level,Machine Learning Scientist,"$225,000.00 ",United States of America (the),Large
+116,2021,Mid-level,Data Scientist,"$50,000.00 ",Nigeria,Large
+117,2021,Mid-level,Data Science Engineer,"$40,189.00 ",Greece,Medium
+118,2021,Entry-level,Data Analyst,"$90,000.00 ",United States of America (the),Small
+119,2021,Mid-level,Data Engineer,"$200,000.00 ",United States of America (the),Large
+120,2021,Mid-level,Big Data Engineer,"$60,000.00 ",Spain,Medium
+121,2021,Intermediate-level,Principal Data Engineer,"$200,000.00 ",United States of America (the),Medium
+122,2021,Entry-level,Data Analyst,"$50,000.00 ",United States of America (the),Medium
+123,2021,Entry-level,Applied Data Scientist,"$110,037.00 ",United Kingdom of Great Britain and Northern Ireland (the),Large
+124,2021,Entry-level,Data Analyst,"$10,354.00 ",Spain,Medium
+125,2021,Mid-level,Principal Data Scientist,"$151,000.00 ",United States of America (the),Large
+126,2021,Intermediate-level,Machine Learning Scientist,"$120,000.00 ",United States of America (the),Small
+127,2021,Mid-level,Data Scientist,"$9,466.00 ",India,Small
+128,2021,Entry-level,Machine Learning Engineer,"$20,000.00 ",India,Small
+129,2021,Intermediate-level,Lead Data Scientist,"$40,570.00 ",India,Large
+130,2021,Entry-level,Machine Learning Developer,"$100,000.00 ",Iraq,Small
+131,2021,Entry-level,Data Scientist,"$49,646.00 ",France,Medium
+132,2021,Mid-level,Applied Machine Learning Scientist,"$38,400.00 ",Viet Nam,Medium
+133,2021,Intermediate-level,Computer Vision Engineer,"$24,000.00 ",Brazil,Medium
+134,2021,Entry-level,Data Scientist,"$100,000.00 ",United States of America (the),Small
+135,2021,Mid-level,Data Analyst,"$90,000.00 ",United States of America (the),Medium
+136,2021,Mid-level,ML Engineer,"$63,711.00 ",Japan,Small
+137,2021,Mid-level,ML Engineer,"$77,364.00 ",Japan,Small
+138,2021,Intermediate-level,Principal Data Scientist,"$220,000.00 ",United States of America (the),Large
+139,2021,Entry-level,Data Scientist,"$80,000.00 ",United States of America (the),Medium
+140,2021,Mid-level,Data Analyst,"$135,000.00 ",United States of America (the),Large
+141,2021,Intermediate-level,Data Science Manager,"$240,000.00 ",United States of America (the),Large
+142,2021,Intermediate-level,Data Engineering Manager,"$150,000.00 ",United States of America (the),Large
+143,2021,Mid-level,Data Scientist,"$82,500.00 ",United States of America (the),Small
+144,2021,Mid-level,Data Engineer,"$100,000.00 ",United States of America (the),Large
+145,2021,Intermediate-level,Machine Learning Engineer,"$82,744.00 ",Belgium,Medium
+146,2021,Mid-level,Research Scientist,"$62,649.00 ",France,Medium
+147,2021,Mid-level,Data Engineer,"$90,000.00 ",United States of America (the),Large
+148,2021,Intermediate-level,Data Engineering Manager,"$153,000.00 ",United States of America (the),Large
+149,2021,Intermediate-level,Cloud Data Engineer,"$160,000.00 ",Brazil,Small
+150,2021,Intermediate-level,Director of Data Science,"$168,000.00 ",Japan,Small
+151,2021,Mid-level,Data Scientist,"$150,000.00 ",United States of America (the),Medium
+152,2021,Mid-level,Data Scientist,"$75,774.00 ",Canada,Large
+153,2021,Entry-level,Data Scientist,"$13,400.00 ",Ukraine,Large
+154,2021,Intermediate-level,Data Science Manager,"$144,000.00 ",United States of America (the),Large
+155,2021,Intermediate-level,Data Science Engineer,"$127,221.00 ",Canada,Large
+156,2021,Mid-level,Data Scientist,"$119,059.00 ",Singapore,Medium
+157,2021,Mid-level,Applied Machine Learning Scientist,"$423,000.00 ",United States of America (the),Large
+158,2021,Intermediate-level,Data Analytics Manager,"$120,000.00 ",United States of America (the),Medium
+159,2021,Entry-level,Machine Learning Engineer,"$125,000.00 ",United States of America (the),Small
+160,2021,Executive,Head of Data,"$230,000.00 ",Russian Federation (the),Large
+161,2021,Executive,Head of Data Science,"$85,000.00 ",Russian Federation (the),Medium
+162,2021,Mid-level,Data Engineer,"$28,369.00 ",Malta,Large
+163,2021,Entry-level,Data Science Consultant,"$63,831.00 ",Germany,Large
+164,2021,Executive,Director of Data Science,"$130,026.00 ",Germany,Medium
+165,2021,Intermediate-level,Data Specialist,"$165,000.00 ",United States of America (the),Large
+166,2021,Entry-level,Data Engineer,"$80,000.00 ",United States of America (the),Large
+167,2021,Executive,Director of Data Science,"$250,000.00 ",United States of America (the),Large
+168,2021,Entry-level,BI Data Analyst,"$55,000.00 ",United States of America (the),Small
+169,2021,Mid-level,Data Architect,"$150,000.00 ",United States of America (the),Large
+170,2021,Mid-level,Data Architect,"$170,000.00 ",United States of America (the),Large
+171,2021,Mid-level,Data Engineer,"$82,528.00 ",United Kingdom of Great Britain and Northern Ireland (the),Large
+172,2021,Entry-level,Data Analyst,"$60,000.00 ",United States of America (the),Small
+173,2021,Intermediate-level,Principal Data Scientist,"$235,000.00 ",United States of America (the),Large
+174,2021,Intermediate-level,Research Scientist,"$60,757.00 ",Portugal,Large
+175,2021,Intermediate-level,Data Engineering Manager,"$174,000.00 ",United States of America (the),Large
+176,2021,Mid-level,Data Scientist,"$2,859.00 ",Mexico,Small
+177,2021,Mid-level,Data Scientist,"$40,038.00 ",Chile,Large
+178,2021,Entry-level,Machine Learning Engineer,"$81,000.00 ",United States of America (the),Small
+179,2021,Mid-level,Data Scientist,"$5,679.00 ",India,Small
+180,2021,Mid-level,Big Data Engineer,"$22,611.00 ",India,Large
+181,2021,Mid-level,Data Scientist,"$90,734.00 ",Germany,Large
+182,2021,Mid-level,Data Engineer,"$26,005.00 ",Romania,Large
+183,2021,Intermediate-level,Finance Data Analyst,"$61,896.00 ",United Kingdom of Great Britain and Northern Ireland (the),Large
+184,2021,Mid-level,Machine Learning Scientist,"$12,000.00 ",Pakistan,Medium
+185,2021,Mid-level,Data Engineer,"$4,000.00 ",Iran (Islamic Republic of),Medium
+186,2021,Intermediate-level,Data Analytics Engineer,"$50,000.00 ",Viet Nam,Medium
+187,2021,Executive,Data Science Consultant,"$69,741.00 ",France,Small
+188,2021,Intermediate-level,Data Engineer,"$76,833.00 ",Romania,Small
+189,2021,Mid-level,Machine Learning Engineer,"$74,000.00 ",Japan,Small
+190,2021,Intermediate-level,Data Science Manager,"$152,000.00 ",United States of America (the),Large
+191,2021,Entry-level,Machine Learning Engineer,"$21,844.00 ",Colombia,Medium
+192,2021,Mid-level,Big Data Engineer,"$18,000.00 ",Moldova (the Republic of),Small
+193,2021,Intermediate-level,Data Science Manager,"$174,000.00 ",United States of America (the),Large
+194,2021,Intermediate-level,Research Scientist,"$96,113.00 ",Canada,Large
+195,2021,Mid-level,Data Scientist,"$147,000.00 ",United States of America (the),Large
+196,2021,Entry-level,BI Data Analyst,"$9,272.00 ",Kenya,Small
+197,2021,Intermediate-level,Machine Learning Engineer,"$24,342.00 ",India,Large
+198,2021,Intermediate-level,Data Science Manager,"$54,094.00 ",India,Large
+199,2021,Entry-level,Data Science Consultant,"$90,000.00 ",United States of America (the),Small
+200,2021,Mid-level,Data Scientist,"$61,467.00 ",Germany,Medium
+201,2021,Intermediate-level,Machine Learning Infrastructure Engineer,"$195,000.00 ",United States of America (the),Medium
+202,2021,Mid-level,Data Scientist,"$37,825.00 ",Spain,Large
+203,2021,Intermediate-level,Research Scientist,"$50,000.00 ",France,Small
+204,2021,Mid-level,Data Scientist,"$160,000.00 ",United States of America (the),Large
+205,2021,Mid-level,Data Scientist,"$12,901.00 ",Brazil,Small
+206,2021,Intermediate-level,Machine Learning Engineer,"$200,000.00 ",United States of America (the),Large
+207,2021,Intermediate-level,Data Engineer,"$165,000.00 ",United States of America (the),Medium
+208,2021,Mid-level,Data Engineer,"$20,000.00 ",Italy,Large
+209,2021,Intermediate-level,Data Analytics Manager,"$120,000.00 ",United States of America (the),Large
+210,2021,Mid-level,Machine Learning Engineer,"$24,823.00 ",Slovenia,Large
+211,2021,Mid-level,Research Scientist,"$56,738.00 ",France,Small
+212,2021,Mid-level,Data Engineer,"$66,022.00 ",Hong Kong,Small
+213,2021,Entry-level,Big Data Engineer,"$5,882.00 ",India,Large
+214,2021,Entry-level,Machine Learning Engineer,"$24,823.00 ",Germany,Medium
+215,2021,Intermediate-level,Principal Data Engineer,"$185,000.00 ",United States of America (the),Large
+216,2021,Entry-level,Computer Vision Engineer,"$28,609.00 ",Denmark,Small
+217,2021,Mid-level,Data Scientist,"$90,734.00 ",Germany,Large
+218,2021,Mid-level,Machine Learning Engineer,"$88,654.00 ",Belgium,Medium
+219,2021,Intermediate-level,Data Analytics Manager,"$140,000.00 ",United States of America (the),Large
+220,2021,Mid-level,Machine Learning Engineer,"$46,597.00 ",Poland,Large
+221,2021,Mid-level,Data Scientist,"$116,914.00 ",United Kingdom of Great Britain and Northern Ireland (the),Large
+222,2021,Mid-level,Data Scientist,"$33,808.00 ",India,Medium
+223,2021,Mid-level,Data Scientist,"$56,256.00 ",United Kingdom of Great Britain and Northern Ireland (the),Large
+224,2021,Intermediate-level,Machine Learning Scientist,"$225,000.00 ",United States of America (the),Large
+225,2021,Executive,Principal Data Scientist,"$416,000.00 ",United States of America (the),Small
+226,2021,Intermediate-level,Data Scientist,"$87,738.00 ",Canada,Small
+227,2021,Mid-level,Data Scientist,"$88,654.00 ",Germany,Large
+228,2021,Intermediate-level,Data Scientist,"$135,000.00 ",United States of America (the),Large
+229,2021,Intermediate-level,Data Analyst,"$71,786.00 ",Canada,Medium
+230,2021,Entry-level,Big Data Engineer,"$16,228.00 ",India,Large
+231,2021,Intermediate-level,ML Engineer,"$256,000.00 ",United States of America (the),Small
+232,2021,Intermediate-level,Director of Data Engineering,"$200,000.00 ",United States of America (the),Large
+233,2021,Intermediate-level,Data Analyst,"$200,000.00 ",United States of America (the),Large
+234,2021,Mid-level,Data Architect,"$180,000.00 ",United States of America (the),Large
+235,2021,Mid-level,Head of Data Science,"$110,000.00 ",United States of America (the),Small
+236,2021,Mid-level,Research Scientist,"$63,810.00 ",Canada,Medium
+237,2021,Mid-level,Data Scientist,"$46,809.00 ",Spain,Medium
+238,2021,Entry-level,Data Scientist,"$4,000.00 ",Viet Nam,Medium
+239,2021,Entry-level,Data Engineer,"$21,637.00 ",India,Medium
+240,2021,Intermediate-level,Data Scientist,"$103,691.00 ",Canada,Large
+241,2021,Mid-level,Data Analyst,"$80,000.00 ",United States of America (the),Large
+242,2021,Mid-level,Data Engineer,"$110,000.00 ",United States of America (the),Large
+243,2021,Intermediate-level,Data Scientist,"$165,000.00 ",United States of America (the),Large
+244,2021,Entry-level,AI Scientist,"$18,053.00 ",India,Small
+245,2021,Mid-level,Data Engineer,"$72,212.00 ",United Kingdom of Great Britain and Northern Ireland (the),Large
+246,2021,Entry-level,Data Scientist,"$36,643.00 ",France,Large
+247,2021,Mid-level,Data Engineer,"$12,103.00 ",Turkey,Medium
+248,2021,Intermediate-level,Data Engineer,"$96,282.00 ",United Kingdom of Great Britain and Northern Ireland (the),Large
+249,2021,Intermediate-level,Principal Data Analyst,"$170,000.00 ",United States of America (the),Medium
+250,2021,Mid-level,Data Scientist,"$115,000.00 ",United States of America (the),Large
+251,2021,Entry-level,Data Scientist,"$90,000.00 ",United States of America (the),Small
+252,2021,Executive,Principal Data Engineer,"$600,000.00 ",United States of America (the),Large
+253,2021,Entry-level,Data Scientist,"$28,399.00 ",India,Medium
+254,2021,Mid-level,Data Analyst,"$93,000.00 ",United States of America (the),Large
+255,2021,Intermediate-level,Big Data Architect,"$99,703.00 ",Canada,Medium
+256,2021,Mid-level,Data Engineer,"$200,000.00 ",United States of America (the),Large
+257,2021,Intermediate-level,Principal Data Scientist,"$173,762.00 ",Germany,Medium
+258,2021,Intermediate-level,Machine Learning Engineer,"$185,000.00 ",United States of America (the),Large
+259,2021,Executive,Director of Data Science,"$141,846.00 ",Germany,Large
+260,2021,Mid-level,Data Scientist,"$130,000.00 ",United States of America (the),Large
+261,2021,Intermediate-level,Data Analyst,"$63,831.00 ",Germany,Large
+262,2021,Mid-level,Data Scientist,"$16,904.00 ",India,Small
+263,2021,Intermediate-level,Machine Learning Engineer,"$66,265.00 ",India,Large
+264,2021,Mid-level,Data Scientist,"$25,532.00 ",Serbia,Small
+265,2021,Intermediate-level,Lead Data Engineer,"$160,000.00 ",Puerto Rico,Small
+266,2021,Mid-level,Data Engineer,"$93,150.00 ",United States of America (the),Medium
+267,2021,Mid-level,Data Engineer,"$111,775.00 ",United States of America (the),Medium
+268,2021,Mid-level,Data Engineer,"$28,016.00 ",Turkey,Medium
+269,2021,Entry-level,Data Engineer,"$65,013.00 ",Germany,Medium
+270,2021,Entry-level,Data Engineer,"$72,500.00 ",United States of America (the),Large
+271,2021,Intermediate-level,Computer Vision Engineer,"$18,907.00 ",Brazil,Medium
+272,2021,Entry-level,Data Science Consultant,"$76,833.00 ",Germany,Large
+273,2021,Entry-level,Machine Learning Engineer,"$85,000.00 ",Netherlands (the),Small
+274,2021,Intermediate-level,Data Scientist,"$77,684.00 ",France,Medium
+275,2021,Entry-level,Data Scientist,"$100,000.00 ",United States of America (the),Medium
+276,2021,Entry-level,Data Scientist,"$58,000.00 ",United States of America (the),Large
+277,2021,Intermediate-level,AI Scientist,"$55,000.00 ",Spain,Large
+278,2021,Intermediate-level,Data Scientist,"$20,171.00 ",Turkey,Large
+279,2021,Entry-level,Business Data Analyst,"$59,102.00 ",Luxembourg,Large
+280,2021,Mid-level,Data Engineer,"$112,000.00 ",United States of America (the),Large
+281,2021,Entry-level,Research Scientist,"$100,000.00 ",Jersey,Large
+282,2021,Mid-level,Data Engineer,"$69,741.00 ",Netherlands (the),Large
+283,2021,Intermediate-level,Staff Data Scientist,"$105,000.00 ",United States of America (the),Medium
+284,2021,Mid-level,Research Scientist,"$69,999.00 ",Czechia,Large
+285,2021,Intermediate-level,Data Science Manager,"$94,665.00 ",India,Large
+286,2021,Intermediate-level,Head of Data,"$102,839.00 ",Slovenia,Large
+287,2021,Mid-level,Data Scientist,"$109,000.00 ",United States of America (the),Large
+288,2021,Mid-level,Machine Learning Engineer,"$51,064.00 ",Italy,Large
+289,2022,Intermediate-level,Data Engineer,"$135,000.00 ",United States of America (the),Medium
+290,2022,Intermediate-level,Data Analyst,"$155,000.00 ",United States of America (the),Medium
+291,2022,Intermediate-level,Data Analyst,"$120,600.00 ",United States of America (the),Medium
+292,2022,Mid-level,Data Scientist,"$130,000.00 ",United States of America (the),Medium
+293,2022,Mid-level,Data Scientist,"$90,000.00 ",United States of America (the),Medium
+294,2022,Mid-level,Data Engineer,"$170,000.00 ",United States of America (the),Medium
+295,2022,Mid-level,Data Engineer,"$150,000.00 ",United States of America (the),Medium
+296,2022,Intermediate-level,Data Analyst,"$102,100.00 ",United States of America (the),Medium
+297,2022,Intermediate-level,Data Analyst,"$84,900.00 ",United States of America (the),Medium
+298,2022,Intermediate-level,Data Scientist,"$136,620.00 ",United States of America (the),Medium
+299,2022,Intermediate-level,Data Scientist,"$99,360.00 ",United States of America (the),Medium
+300,2022,Intermediate-level,Data Scientist,"$117,789.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+301,2022,Intermediate-level,Data Scientist,"$104,702.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+302,2022,Intermediate-level,Data Scientist,"$146,000.00 ",United States of America (the),Medium
+303,2022,Intermediate-level,Data Scientist,"$123,000.00 ",United States of America (the),Medium
+304,2022,Entry-level,Data Engineer,"$52,351.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+305,2022,Intermediate-level,Data Analyst,"$99,000.00 ",United States of America (the),Medium
+306,2022,Intermediate-level,Data Analyst,"$116,000.00 ",United States of America (the),Medium
+307,2022,Mid-level,Data Analyst,"$106,260.00 ",United States of America (the),Medium
+308,2022,Mid-level,Data Analyst,"$126,500.00 ",United States of America (the),Medium
+309,2022,Executive,Data Engineer,"$242,000.00 ",United States of America (the),Medium
+310,2022,Executive,Data Engineer,"$200,000.00 ",United States of America (the),Medium
+311,2022,Mid-level,Data Scientist,"$65,438.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+312,2022,Mid-level,Data Scientist,"$39,263.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+313,2022,Mid-level,Data Engineer,"$78,526.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+314,2022,Mid-level,Data Engineer,"$52,351.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+315,2022,Intermediate-level,Data Scientist,"$165,220.00 ",United States of America (the),Medium
+316,2022,Entry-level,Data Engineer,"$45,807.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+317,2022,Intermediate-level,Data Scientist,"$120,160.00 ",United States of America (the),Medium
+318,2022,Intermediate-level,Data Analyst,"$90,320.00 ",United States of America (the),Medium
+319,2022,Intermediate-level,Data Engineer,"$181,940.00 ",United States of America (the),Medium
+320,2022,Intermediate-level,Data Engineer,"$132,320.00 ",United States of America (the),Medium
+321,2022,Intermediate-level,Data Engineer,"$220,110.00 ",United States of America (the),Medium
+322,2022,Intermediate-level,Data Engineer,"$160,080.00 ",United States of America (the),Medium
+323,2022,Intermediate-level,Data Scientist,"$180,000.00 ",United States of America (the),Large
+324,2022,Intermediate-level,Data Scientist,"$120,000.00 ",United States of America (the),Large
+325,2022,Intermediate-level,Data Analyst,"$124,190.00 ",United States of America (the),Medium
+326,2022,Executive,Data Analyst,"$130,000.00 ",United States of America (the),Medium
+327,2022,Executive,Data Analyst,"$110,000.00 ",United States of America (the),Medium
+328,2022,Intermediate-level,Data Analyst,"$170,000.00 ",United States of America (the),Medium
+329,2022,Mid-level,Data Analyst,"$115,500.00 ",United States of America (the),Medium
+330,2022,Intermediate-level,Data Analyst,"$112,900.00 ",United States of America (the),Medium
+331,2022,Intermediate-level,Data Analyst,"$90,320.00 ",United States of America (the),Medium
+332,2022,Intermediate-level,Data Analyst,"$112,900.00 ",United States of America (the),Medium
+333,2022,Intermediate-level,Data Analyst,"$90,320.00 ",United States of America (the),Medium
+334,2022,Intermediate-level,Data Engineer,"$165,400.00 ",United States of America (the),Medium
+335,2022,Intermediate-level,Data Engineer,"$132,320.00 ",United States of America (the),Medium
+336,2022,Mid-level,Data Analyst,"$167,000.00 ",United States of America (the),Medium
+337,2022,Intermediate-level,Data Engineer,"$243,900.00 ",United States of America (the),Medium
+338,2022,Intermediate-level,Data Analyst,"$136,600.00 ",United States of America (the),Medium
+339,2022,Intermediate-level,Data Analyst,"$109,280.00 ",United States of America (the),Medium
+340,2022,Intermediate-level,Data Engineer,"$128,875.00 ",United States of America (the),Medium
+341,2022,Intermediate-level,Data Engineer,"$93,700.00 ",United States of America (the),Medium
+342,2022,Executive,Head of Data Science,"$224,000.00 ",United States of America (the),Medium
+343,2022,Executive,Head of Data Science,"$167,875.00 ",United States of America (the),Medium
+344,2022,Executive,Analytics Engineer,"$175,000.00 ",United States of America (the),Medium
+345,2022,Intermediate-level,Data Engineer,"$156,600.00 ",United States of America (the),Medium
+346,2022,Intermediate-level,Data Engineer,"$108,800.00 ",United States of America (the),Medium
+347,2022,Intermediate-level,Data Scientist,"$95,550.00 ",United States of America (the),Medium
+348,2022,Intermediate-level,Data Engineer,"$113,000.00 ",United States of America (the),Large
+349,2022,Intermediate-level,Data Analyst,"$135,000.00 ",United States of America (the),Medium
+350,2022,Intermediate-level,Data Science Manager,"$161,342.00 ",United States of America (the),Medium
+351,2022,Intermediate-level,Data Science Manager,"$137,141.00 ",United States of America (the),Medium
+352,2022,Intermediate-level,Data Scientist,"$167,000.00 ",United States of America (the),Medium
+353,2022,Intermediate-level,Data Scientist,"$123,000.00 ",United States of America (the),Medium
+354,2022,Intermediate-level,Data Engineer,"$78,526.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+355,2022,Intermediate-level,Data Engineer,"$65,438.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+356,2022,Intermediate-level,Data Scientist,"$150,000.00 ",United States of America (the),Medium
+357,2022,Intermediate-level,Data Scientist,"$211,500.00 ",United States of America (the),Medium
+358,2022,Intermediate-level,Data Architect,"$192,400.00 ",Canada,Medium
+359,2022,Intermediate-level,Data Architect,"$90,700.00 ",Canada,Medium
+360,2022,Intermediate-level,Data Analyst,"$130,000.00 ",Canada,Medium
+361,2022,Intermediate-level,Data Analyst,"$61,300.00 ",Canada,Medium
+362,2022,Intermediate-level,Data Analyst,"$130,000.00 ",Canada,Medium
+363,2022,Intermediate-level,Data Analyst,"$61,300.00 ",Canada,Medium
+364,2022,Intermediate-level,Data Engineer,"$160,000.00 ",United States of America (the),Large
+365,2022,Intermediate-level,Data Scientist,"$138,600.00 ",United States of America (the),Medium
+366,2022,Intermediate-level,Data Engineer,"$136,000.00 ",United States of America (the),Medium
+367,2022,Mid-level,Data Analyst,"$58,000.00 ",United States of America (the),Small
+368,2022,Executive,Analytics Engineer,"$135,000.00 ",United States of America (the),Medium
+369,2022,Intermediate-level,Data Scientist,"$170,000.00 ",United States of America (the),Medium
+370,2022,Intermediate-level,Data Scientist,"$123,000.00 ",United States of America (the),Medium
+371,2022,Intermediate-level,Machine Learning Engineer,"$189,650.00 ",United States of America (the),Medium
+372,2022,Intermediate-level,Machine Learning Engineer,"$164,996.00 ",United States of America (the),Medium
+373,2022,Mid-level,ETL Developer,"$54,957.00 ",Greece,Medium
+374,2022,Mid-level,ETL Developer,"$54,957.00 ",Greece,Medium
+375,2022,Executive,Lead Data Engineer,"$118,187.00 ",Canada,Small
+376,2022,Intermediate-level,Data Analyst,"$132,000.00 ",United States of America (the),Medium
+377,2022,Intermediate-level,Data Engineer,"$165,400.00 ",United States of America (the),Medium
+378,2022,Intermediate-level,Data Architect,"$208,775.00 ",United States of America (the),Medium
+379,2022,Intermediate-level,Data Architect,"$147,800.00 ",United States of America (the),Medium
+380,2022,Intermediate-level,Data Engineer,"$136,994.00 ",United States of America (the),Medium
+381,2022,Intermediate-level,Data Engineer,"$101,570.00 ",United States of America (the),Medium
+382,2022,Intermediate-level,Data Analyst,"$128,875.00 ",United States of America (the),Medium
+383,2022,Intermediate-level,Data Analyst,"$93,700.00 ",United States of America (the),Medium
+384,2022,Executive,Head of Machine Learning,"$79,039.00 ",India,Large
+385,2022,Intermediate-level,Data Engineer,"$132,320.00 ",United States of America (the),Medium
+386,2022,Entry-level,Machine Learning Engineer,"$37,300.00 ",United Kingdom of Great Britain and Northern Ireland (the),Large
+387,2022,Intermediate-level,Data Analyst,"$164,000.00 ",United States of America (the),Medium
+388,2022,Intermediate-level,Data Engineer,"$155,000.00 ",United States of America (the),Medium
+389,2022,Mid-level,Machine Learning Engineer,"$124,333.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+390,2022,Mid-level,Machine Learning Engineer,"$98,158.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+391,2022,Mid-level,AI Scientist,"$120,000.00 ",United States of America (the),Medium
+392,2022,Intermediate-level,Data Analyst,"$112,900.00 ",United States of America (the),Medium
+393,2022,Intermediate-level,Data Analyst,"$90,320.00 ",United States of America (the),Medium
+394,2022,Intermediate-level,Data Analytics Manager,"$145,000.00 ",United States of America (the),Medium
+395,2022,Intermediate-level,Data Analytics Manager,"$105,400.00 ",United States of America (the),Medium
+396,2022,Mid-level,Machine Learning Engineer,"$87,932.00 ",France,Medium
+397,2022,Mid-level,Data Engineer,"$117,789.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+398,2022,Intermediate-level,Data Scientist,"$215,300.00 ",United States of America (the),Large
+399,2022,Intermediate-level,Data Scientist,"$158,200.00 ",United States of America (the),Large
+400,2022,Intermediate-level,Data Engineer,"$209,100.00 ",United States of America (the),Large
+401,2022,Intermediate-level,Data Engineer,"$154,600.00 ",United States of America (the),Large
+402,2022,Intermediate-level,Data Analyst,"$115,934.00 ",United States of America (the),Medium
+403,2022,Intermediate-level,Data Analyst,"$81,666.00 ",United States of America (the),Medium
+404,2022,Intermediate-level,Data Engineer,"$175,000.00 ",United States of America (the),Medium
+405,2022,Mid-level,Data Engineer,"$98,158.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+406,2022,Mid-level,Data Analyst,"$58,000.00 ",United States of America (the),Small
+407,2022,Intermediate-level,Data Engineer,"$183,600.00 ",United States of America (the),Large
+408,2022,Mid-level,Data Analyst,"$52,351.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+409,2022,Intermediate-level,Data Scientist,"$180,000.00 ",United States of America (the),Medium
+410,2022,Mid-level,Data Scientist,"$71,982.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+411,2022,Mid-level,Data Scientist,"$45,807.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+412,2022,Mid-level,Data Engineer,"$65,949.00 ",Greece,Medium
+413,2022,Mid-level,Data Engineer,"$49,461.00 ",Greece,Medium
+414,2022,Mid-level,Data Engineer,"$78,526.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+415,2022,Mid-level,Data Engineer,"$58,894.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+416,2022,Intermediate-level,Data Scientist,"$260,000.00 ",United States of America (the),Medium
+417,2022,Intermediate-level,Data Science Engineer,"$60,000.00 ",Argentina,Large
+418,2022,Mid-level,Data Engineer,"$63,900.00 ",United States of America (the),Medium
+419,2022,Mid-level,Machine Learning Scientist,"$160,000.00 ",United States of America (the),Large
+420,2022,Mid-level,Machine Learning Scientist,"$112,300.00 ",United States of America (the),Large
+421,2022,Mid-level,Data Science Manager,"$241,000.00 ",United States of America (the),Medium
+422,2022,Mid-level,Data Science Manager,"$159,000.00 ",United States of America (the),Medium
+423,2022,Intermediate-level,Data Scientist,"$180,000.00 ",United States of America (the),Medium
+424,2022,Intermediate-level,Data Scientist,"$80,000.00 ",United States of America (the),Medium
+425,2022,Mid-level,Data Engineer,"$82,900.00 ",United States of America (the),Medium
+426,2022,Intermediate-level,Data Engineer,"$100,800.00 ",United States of America (the),Large
+427,2022,Mid-level,Data Engineer,"$49,461.00 ",Spain,Medium
+428,2022,Intermediate-level,Data Scientist,"$140,400.00 ",United States of America (the),Large
+429,2022,Mid-level,Data Analyst,"$39,263.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+430,2022,Mid-level,Data Analyst,"$43,966.00 ",Spain,Medium
+431,2022,Mid-level,Data Analyst,"$32,974.00 ",Spain,Medium
+432,2022,Mid-level,Data Engineer,"$87,932.00 ",Spain,Medium
+433,2022,Mid-level,Data Engineer,"$76,940.00 ",Spain,Medium
+434,2022,Mid-level,Data Engineer,"$104,702.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+435,2022,Mid-level,Data Engineer,"$91,614.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+436,2022,Mid-level,Data Engineer,"$65,949.00 ",Spain,Medium
+437,2022,Mid-level,Data Engineer,"$87,932.00 ",Greece,Medium
+438,2022,Intermediate-level,Machine Learning Engineer,"$189,650.00 ",United States of America (the),Medium
+439,2022,Intermediate-level,Machine Learning Engineer,"$164,996.00 ",United States of America (the),Medium
+440,2022,Mid-level,Data Analyst,"$43,966.00 ",Greece,Medium
+441,2022,Mid-level,Data Analyst,"$32,974.00 ",Greece,Medium
+442,2022,Mid-level,Data Engineer,"$98,158.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+443,2022,Mid-level,Data Engineer,"$78,526.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+444,2022,Intermediate-level,Data Scientist,"$215,300.00 ",United States of America (the),Large
+445,2022,Mid-level,Data Engineer,"$76,940.00 ",Greece,Medium
+446,2022,Intermediate-level,Data Engineer,"$209,100.00 ",United States of America (the),Large
+447,2022,Intermediate-level,Data Engineer,"$154,600.00 ",United States of America (the),Large
+448,2022,Intermediate-level,Data Engineer,"$180,000.00 ",United States of America (the),Medium
+449,2022,Entry-level,ML Engineer,"$21,983.00 ",Portugal,Large
+450,2022,Intermediate-level,Data Engineer,"$80,000.00 ",United States of America (the),Medium
+451,2022,Mid-level,Machine Learning Developer,"$78,791.00 ",Canada,Medium
+452,2022,Executive,Director of Data Science,"$196,979.00 ",Canada,Large
+453,2022,Mid-level,Machine Learning Engineer,"$120,000.00 ",United States of America (the),Small
+454,2022,Entry-level,Computer Vision Engineer,"$125,000.00 ",United States of America (the),Medium
+455,2022,Mid-level,NLP Engineer,"$37,236.00 ",United States of America (the),Large
+456,2022,Intermediate-level,Data Engineer,"$105,000.00 ",United States of America (the),Medium
+457,2022,Intermediate-level,Lead Machine Learning Engineer,"$87,932.00 ",Germany,Medium
+458,2022,Mid-level,Business Data Analyst,"$18,442.00 ",India,Medium
+459,2022,Mid-level,Data Scientist,"$31,615.00 ",India,Large
+460,2022,Mid-level,Machine Learning Infrastructure Engineer,"$58,255.00 ",Portugal,Large
+461,2022,Entry-level,Financial Data Analyst,"$100,000.00 ",United States of America (the),Large
+462,2022,Mid-level,Data Engineer,"$54,957.00 ",Germany,Large
+463,2022,Entry-level,Data Scientist,"$18,442.00 ",India,Medium
+464,2022,Intermediate-level,Principal Data Scientist,"$162,674.00 ",Germany,Medium
+465,2022,Entry-level,Data Engineer,"$120,000.00 ",United States of America (the),Medium
+466,2022,Intermediate-level,Research Scientist,"$144,000.00 ",United States of America (the),Large
+467,2022,Intermediate-level,Data Scientist,"$104,890.00 ",United States of America (the),Medium
+468,2022,Intermediate-level,Data Engineer,"$100,000.00 ",United States of America (the),Medium
+469,2022,Intermediate-level,Data Scientist,"$140,000.00 ",United States of America (the),Medium
+470,2022,Mid-level,Data Analyst,"$135,000.00 ",United States of America (the),Medium
+471,2022,Mid-level,Data Analyst,"$50,000.00 ",United States of America (the),Medium
+472,2022,Intermediate-level,Data Scientist,"$220,000.00 ",United States of America (the),Medium
+473,2022,Intermediate-level,Data Scientist,"$140,000.00 ",United States of America (the),Medium
+474,2022,Mid-level,Data Scientist,"$183,228.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+475,2022,Mid-level,Data Scientist,"$91,614.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+476,2022,Intermediate-level,Data Scientist,"$185,100.00 ",United States of America (the),Medium
+477,2022,Intermediate-level,Machine Learning Engineer,"$220,000.00 ",United States of America (the),Medium
+478,2022,Mid-level,Data Scientist,"$200,000.00 ",United States of America (the),Medium
+479,2022,Mid-level,Data Scientist,"$120,000.00 ",United States of America (the),Medium
+480,2022,Intermediate-level,Machine Learning Engineer,"$120,000.00 ",United Arab Emirates (the),Small
+481,2022,Intermediate-level,Machine Learning Engineer,"$65,000.00 ",United Arab Emirates (the),Small
+482,2022,Executive,Data Engineer,"$324,000.00 ",United States of America (the),Medium
+483,2022,Executive,Data Engineer,"$216,000.00 ",United States of America (the),Medium
+484,2022,Intermediate-level,Data Engineer,"$210,000.00 ",United States of America (the),Medium
+485,2022,Intermediate-level,Machine Learning Engineer,"$120,000.00 ",United States of America (the),Medium
+486,2022,Intermediate-level,Data Scientist,"$230,000.00 ",United States of America (the),Medium
+487,2022,Entry-level,Data Scientist,"$100,000.00 ",Algeria,Medium
+488,2022,Mid-level,Data Scientist,"$100,000.00 ",Canada,Medium
+489,2022,Entry-level,Applied Machine Learning Scientist,"$31,875.00 ",Tunisia,Medium
+490,2022,Intermediate-level,Head of Data,"$200,000.00 ",Malaysia,Medium
+491,2022,Mid-level,Principal Data Analyst,"$75,000.00 ",Canada,Small
+492,2022,Mid-level,Data Scientist,"$35,590.00 ",Poland,Large
+493,2022,Intermediate-level,Machine Learning Developer,"$78,791.00 ",Canada,Medium
+494,2022,Intermediate-level,Data Scientist,"$100,000.00 ",Brazil,Medium
+495,2022,Mid-level,Machine Learning Scientist,"$153,000.00 ",United States of America (the),Medium
+496,2022,Entry-level,Data Engineer,"$58,035.00 ",Pakistan,Medium
+497,2022,Intermediate-level,Data Scientist,"$165,000.00 ",United States of America (the),Medium
+498,2022,Intermediate-level,Research Scientist,"$93,427.00 ",France,Large
+499,2022,Entry-level,Data Scientist,"$52,396.00 ",Canada,Large
+500,2022,Intermediate-level,Machine Learning Engineer,"$62,651.00 ",Netherlands (the),Large
+501,2022,Mid-level,Head of Data,"$32,974.00 ",Estonia,Small
+502,2022,Entry-level,Data Scientist,"$40,000.00 ",Japan,Large
+503,2022,Mid-level,Machine Learning Engineer,"$87,425.00 ",Australia,Large
+504,2022,Intermediate-level,Data Engineer,"$115,000.00 ",United States of America (the),Medium
+505,2022,Entry-level,Data Scientist,"$86,703.00 ",Australia,Medium
+506,2022,Mid-level,Applied Machine Learning Scientist,"$75,000.00 ",Bolivia (Plurinational State of),Large
+507,2022,Mid-level,Research Scientist,"$64,849.00 ",Austria,Large
+508,2022,Entry-level,Research Scientist,"$120,000.00 ",United States of America (the),Large
+509,2022,Mid-level,Applied Data Scientist,"$157,000.00 ",United States of America (the),Large
+510,2022,Entry-level,Computer Vision Software Engineer,"$150,000.00 ",Australia,Small
+511,2022,Mid-level,Business Data Analyst,"$70,912.00 ",Canada,Large
+512,2022,Entry-level,Data Engineer,"$65,000.00 ",United States of America (the),Small
+513,2022,Intermediate-level,Machine Learning Engineer,"$71,444.00 ",Ireland,Small
+514,2022,Entry-level,Data Analytics Engineer,"$20,000.00 ",Pakistan,Medium
+515,2022,Mid-level,Data Scientist,"$48,000.00 ",Russian Federation (the),Small
+516,2022,Intermediate-level,Data Science Manager,"$152,500.00 ",United States of America (the),Medium
+517,2022,Mid-level,Data Engineer,"$68,147.00 ",France,Medium
+518,2022,Mid-level,Data Scientist,"$122,346.00 ",Switzerland,Large
+519,2022,Intermediate-level,Applied Data Scientist,"$380,000.00 ",United States of America (the),Large
+520,2022,Mid-level,Data Scientist,"$69,336.00 ",Canada,Medium
+521,2022,Entry-level,Computer Vision Engineer,"$10,000.00 ",Portugal,Medium
+522,2022,Mid-level,Data Analyst,"$20,000.00 ",Greece,Small
+523,2022,Intermediate-level,Data Analytics Lead,"$405,000.00 ",United States of America (the),Large
+524,2022,Mid-level,Data Scientist,"$135,000.00 ",United States of America (the),Large
+525,2022,Intermediate-level,Applied Data Scientist,"$177,000.00 ",United States of America (the),Large
+526,2022,Mid-level,Data Scientist,"$78,000.00 ",United States of America (the),Medium
+527,2022,Intermediate-level,Data Analyst,"$135,000.00 ",United States of America (the),Medium
+528,2022,Intermediate-level,Data Analyst,"$100,000.00 ",United States of America (the),Medium
+529,2022,Intermediate-level,Data Analyst,"$90,320.00 ",United States of America (the),Medium
+530,2022,Mid-level,Data Analyst,"$85,000.00 ",Canada,Medium
+531,2022,Mid-level,Data Analyst,"$75,000.00 ",Canada,Medium
+532,2022,Intermediate-level,Machine Learning Engineer,"$214,000.00 ",United States of America (the),Medium
+533,2022,Intermediate-level,Machine Learning Engineer,"$192,600.00 ",United States of America (the),Medium
+534,2022,Intermediate-level,Data Architect,"$266,400.00 ",United States of America (the),Medium
+535,2022,Intermediate-level,Data Architect,"$213,120.00 ",United States of America (the),Medium
+536,2022,Intermediate-level,Data Analyst,"$112,900.00 ",United States of America (the),Medium
+537,2022,Intermediate-level,Data Engineer,"$155,000.00 ",United States of America (the),Medium
+538,2022,Mid-level,Data Scientist,"$141,300.00 ",United States of America (the),Medium
+539,2022,Mid-level,Data Scientist,"$102,100.00 ",United States of America (the),Medium
+540,2022,Intermediate-level,Data Analyst,"$115,934.00 ",United States of America (the),Medium
+541,2022,Intermediate-level,Data Analyst,"$81,666.00 ",United States of America (the),Medium
+542,2022,Mid-level,Data Engineer,"$206,699.00 ",United States of America (the),Medium
+543,2022,Mid-level,Data Engineer,"$99,100.00 ",United States of America (the),Medium
+544,2022,Intermediate-level,Data Engineer,"$130,000.00 ",United States of America (the),Medium
+545,2022,Intermediate-level,Data Engineer,"$115,000.00 ",United States of America (the),Medium
+546,2022,Intermediate-level,Data Engineer,"$110,500.00 ",United States of America (the),Medium
+547,2022,Intermediate-level,Data Engineer,"$130,000.00 ",United States of America (the),Medium
+548,2022,Intermediate-level,Data Analyst,"$99,050.00 ",United States of America (the),Medium
+549,2022,Intermediate-level,Data Engineer,"$160,000.00 ",United States of America (the),Medium
+550,2022,Intermediate-level,Data Scientist,"$205,300.00 ",United States of America (the),Large
+551,2022,Intermediate-level,Data Scientist,"$140,400.00 ",United States of America (the),Large
+552,2022,Intermediate-level,Data Scientist,"$176,000.00 ",United States of America (the),Medium
+553,2022,Intermediate-level,Data Scientist,"$144,000.00 ",United States of America (the),Medium
+554,2022,Intermediate-level,Data Engineer,"$200,100.00 ",United States of America (the),Medium
+555,2022,Intermediate-level,Data Engineer,"$160,000.00 ",United States of America (the),Medium
+556,2022,Intermediate-level,Data Engineer,"$145,000.00 ",United States of America (the),Medium
+557,2022,Intermediate-level,Data Engineer,"$70,500.00 ",United States of America (the),Medium
+558,2022,Intermediate-level,Data Scientist,"$205,300.00 ",United States of America (the),Medium
+559,2022,Intermediate-level,Data Scientist,"$140,400.00 ",United States of America (the),Medium
+560,2022,Intermediate-level,Analytics Engineer,"$205,300.00 ",United States of America (the),Medium
+561,2022,Intermediate-level,Analytics Engineer,"$184,700.00 ",United States of America (the),Medium
+562,2022,Intermediate-level,Data Engineer,"$175,100.00 ",United States of America (the),Medium
+563,2022,Intermediate-level,Data Engineer,"$140,250.00 ",United States of America (the),Medium
+564,2022,Intermediate-level,Data Analyst,"$116,150.00 ",United States of America (the),Medium
+565,2022,Intermediate-level,Data Engineer,"$54,000.00 ",United States of America (the),Medium
+566,2022,Intermediate-level,Data Analyst,"$170,000.00 ",United States of America (the),Medium
+567,2022,Mid-level,Data Analyst,"$65,438.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+568,2022,Intermediate-level,Data Analyst,"$80,000.00 ",United States of America (the),Medium
+569,2022,Intermediate-level,Data Scientist,"$140,000.00 ",United States of America (the),Medium
+570,2022,Intermediate-level,Data Scientist,"$210,000.00 ",United States of America (the),Medium
+571,2022,Intermediate-level,Data Scientist,"$140,000.00 ",United States of America (the),Medium
+572,2022,Intermediate-level,Data Analyst,"$100,000.00 ",United States of America (the),Medium
+573,2022,Intermediate-level,Data Analyst,"$69,000.00 ",United States of America (the),Medium
+574,2022,Intermediate-level,Data Scientist,"$210,000.00 ",United States of America (the),Medium
+575,2022,Intermediate-level,Data Scientist,"$140,000.00 ",United States of America (the),Medium
+576,2022,Intermediate-level,Data Scientist,"$210,000.00 ",United States of America (the),Medium
+577,2022,Intermediate-level,Data Analyst,"$150,075.00 ",United States of America (the),Medium
+578,2022,Intermediate-level,Data Engineer,"$100,000.00 ",United States of America (the),Medium
+579,2022,Intermediate-level,Data Engineer,"$25,000.00 ",United States of America (the),Medium
+580,2022,Intermediate-level,Data Analyst,"$126,500.00 ",United States of America (the),Medium
+581,2022,Intermediate-level,Data Analyst,"$106,260.00 ",United States of America (the),Medium
+582,2022,Intermediate-level,Data Engineer,"$220,110.00 ",United States of America (the),Medium
+583,2022,Intermediate-level,Data Engineer,"$160,080.00 ",United States of America (the),Medium
+584,2022,Intermediate-level,Data Analyst,"$105,000.00 ",United States of America (the),Medium
+585,2022,Intermediate-level,Data Analyst,"$110,925.00 ",United States of America (the),Medium
+586,2022,Mid-level,Data Analyst,"$45,807.00 ",United Kingdom of Great Britain and Northern Ireland (the),Medium
+587,2022,Intermediate-level,Data Scientist,"$140,000.00 ",United States of America (the),Medium
+588,2022,Intermediate-level,Data Analyst,"$99,000.00 ",United States of America (the),Medium
+589,2022,Intermediate-level,Data Analyst,"$60,000.00 ",United States of America (the),Medium
+590,2022,Intermediate-level,Data Architect,"$192,564.00 ",United States of America (the),Medium
+591,2022,Intermediate-level,Data Architect,"$144,854.00 ",United States of America (the),Medium
+592,2022,Intermediate-level,Data Scientist,"$230,000.00 ",United States of America (the),Medium
+593,2022,Intermediate-level,Data Scientist,"$150,000.00 ",United States of America (the),Medium
+594,2022,Intermediate-level,Data Analytics Manager,"$150,260.00 ",United States of America (the),Medium
+595,2022,Intermediate-level,Data Analytics Manager,"$109,280.00 ",United States of America (the),Medium
+596,2022,Intermediate-level,Data Scientist,"$210,000.00 ",United States of America (the),Medium
+597,2022,Intermediate-level,Data Analyst,"$170,000.00 ",United States of America (the),Medium
+598,2022,Mid-level,Data Scientist,"$160,000.00 ",United States of America (the),Medium
+599,2022,Mid-level,Data Scientist,"$130,000.00 ",United States of America (the),Medium
+600,2022,Entry-level,Data Analyst,"$67,000.00 ",Canada,Medium
+601,2022,Entry-level,Data Analyst,"$52,000.00 ",Canada,Medium
+602,2022,Intermediate-level,Data Engineer,"$154,000.00 ",United States of America (the),Medium
+603,2022,Intermediate-level,Data Engineer,"$126,000.00 ",United States of America (the),Medium
+604,2022,Intermediate-level,Data Analyst,"$129,000.00 ",United States of America (the),Medium
+605,2022,Intermediate-level,Data Analyst,"$150,000.00 ",United States of America (the),Medium
+606,2022,Mid-level,AI Scientist,"$200,000.00 ",India,Large
