@@ -1,6 +1,6 @@
 <!doctype html>
 <head>
-  <title>Pauline's Project for CS 416 - Data Visualization</title>
+  <title>Pauline's Project for CS 416 - Data Viz</title>
   <script src="http://d3js.org/d3.v3.min.js"></script>
 </head>
 <body>
@@ -60,7 +60,7 @@
 
 	// Set the ranges
 	var x = d3.scale.linear()
-	    .domain([0, 5]).range([0, width]);
+	    .range([0, width]);
 	var y = d3.scale.linear()
 	    .range([height, 0]);
 
@@ -69,7 +69,7 @@
 	// Define the axes
 	var xAxis = d3.svg.axis()
 	    .scale(x)
-	    .orient("bottom");
+	    .orient("bottom").ticks(4);
 
 	var yAxis = d3.svg.axis()
 	    .scale(y)
@@ -80,7 +80,7 @@
 	    .attr("width", width + margin.left + margin.right)
 	    .attr("height", height + margin.top + margin.bottom)
 	  .append("g")
-	    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	// Get the data
 	d3.csv("https://raw.githubusercontent.com/c3-pbrunet/DVproject/main/ds_salaries_small.csv", function(error, data){
@@ -178,8 +178,52 @@
 	      .style("text-anchor", "end")
 	      .text(function(d) { return d; });
 
-	});
+    });
+    
+    // Adds the svg canvas
+    var	chart2 = d3.select("body")
+	    .append("svg")
+		    .attr("width", width + margin.left + margin.right)
+		    .attr("height", height + margin.top + margin.bottom)
+	    .append("g")
+		    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+		
+    /// Get the data
+	d3.csv("https://raw.githubusercontent.com/c3-pbrunet/DVproject/main/ds_salaries_small.csv", function(error, data){
+	  if (error) throw error;
+	  data.forEach(function(d) {
+	    d.work_year = +d.experience_level;
+        d.salary_in_usd = +d.salary_in_usd;
+        d.company_size = +d.company_size;
+	  });
 
+	// Scale the range of the data
+    x.domain(d3.extent(data, function(d) { return d.experience_level; })).nice();
+	y.domain(d3.extent(data, function(d) { return d.salary_in_usd; })).nice();
+
+    // Define the line
+    var	valueline = d3.svg.line()
+	    .x(function(d) { return x(d.experience_level); })
+	    .y(function(d) { return y(d.salary_in_usd); });
+
+    // Add the valueline path.
+	chart2.append("path")
+		.attr("class", "line")
+		.attr("d", valueline(data));
+
+	// Add the X Axis
+	chart2.append("g")
+		.attr("class", "x axis")
+		.attr("transform", "translate(0," + height + ")")
+		.call(xAxis);
+
+	// Add the Y Axis
+	chart2.append("g")
+		.attr("class", "y axis")
+		.call(yAxis);
+
+    });
+    
 	</script>
      </div>
     </div>
