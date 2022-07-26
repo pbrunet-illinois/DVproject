@@ -1,0 +1,188 @@
+<!doctype html>
+<head>
+  <title>Pauline's Project for CS 416 - Data Visualization</title>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+</head>
+<body>
+  <div id="container">
+    <h1>How much do Data Scientists make? </h1>
+    <h2 class="subtitle">Sample Salaries for Data Scientists across company sizes and experience levels.</h2>
+    <div id="vis-nav">
+      <a href="#" id="step1" class="step-link active">Part 1</a>
+      <a href="#" id="step2" class="step-link">Part 2</a>
+      <a href="#" id="step3" class="step-link">Part 3</a>
+
+    </div>
+    <div id="vis-container">
+      <div id="annotation-steps">
+        <div class="annotation-step" id="step1-annotation" style="display:block;">
+          <div class="annotation" id="step1-high-annotation" >
+            <h4>Executives and higher-level data scientists make the most at medium and large compagnies.</h4>
+                		  
+          </div>
+         </div>
+        <div class="annotation-step" id="step2-annotation">
+          <div class="annotation" id="step2-high-annotation" >
+	    <h4>Mouseover the data to see X.</h4>
+				
+          </div>
+        </div>
+	<div class="annotation-step" id="step3-annotation">
+          <div class="annotation" id="step3-high-annotation" >
+	    <h4>Cool thing #3</h4>
+		
+          </div>
+        </div>
+      </div>
+     <div id="vis-canvas"> 
+	     
+    <style>
+
+	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
+
+	.dot {
+	  stroke: #000;
+	}
+
+	</style>
+
+	<script>
+
+	// Set the dimensions of the canvas / graph
+	var margin = {top: 50, right: 50, bottom: 50, left: 80},
+	    width = 940 - margin.left - margin.right,
+	    height = 500 - margin.top - margin.bottom;
+
+	// Set the ranges
+	var x = d3.scale.linear()
+	    .domain([0, 5]).range([0, width]);
+	var y = d3.scale.linear()
+	    .range([height, 0]);
+
+	var color = d3.scale.category10();
+
+	// Define the axes
+	var xAxis = d3.svg.axis()
+	    .scale(x)
+	    .orient("bottom");
+
+	var yAxis = d3.svg.axis()
+	    .scale(y)
+	    .orient("left");
+
+	// Add the svg canvas
+	var svg = d3.select("#vis-canvas").append("svg")
+	    .attr("width", width + margin.left + margin.right)
+	    .attr("height", height + margin.top + margin.bottom)
+	  .append("g")
+	    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	// Get the data
+	d3.csv("https://raw.githubusercontent.com/c3-pbrunet/DVproject/main/ds_salaries_small.csv", function(error, data){
+	  if (error) throw error;
+	  data.forEach(function(d) {
+	    d.work_year = +d.experience_level;
+        d.salary_in_usd = +d.salary_in_usd;
+        d.company_size = +d.company_size;
+	  });
+
+	// Scale the range of the data
+	  x.domain(d3.extent(data, function(d) { return d.experience_level; })).nice();
+	  y.domain(d3.extent(data, function(d) { return d.salary_in_usd; })).nice();
+
+	// Add the X Axis
+	  svg.append("g")
+	      .attr("class", "x axis")
+	      .attr("transform", "translate(0," + height + ")")
+	      .call(xAxis)
+	    .append("text")
+	      .attr("class", "label")
+	      .attr("x", width)
+	      .attr("y", -6)
+	      .style("text-anchor", "middle")
+	      .text("Experience level");
+
+	// Add the Y Axis
+	  svg.append("g")
+	      .attr("class", "y axis")
+	      .call(yAxis)
+	    .append("text")
+	      .attr("class", "label")
+	      .attr("transform", "rotate(-90)")
+	      .attr("y", 6)
+	      .attr("dy", ".71em")
+	      .style("text-anchor", "end")
+	      .text("Salary")
+
+    // Tooltip
+
+    var tooltip = d3.select("body")
+    .append("div")
+    .style("position", "absolute")
+    .style("z-index", "10")
+    .style("visibility", "hidden")
+    .style("background", "#000")
+    .text("test");
+
+	// Add the Scatterplot
+	  svg.selectAll(".dot")
+	      .data(data)
+	    .enter().append("circle")
+	      .attr("class", "dot")
+	      .attr("r", 10)
+	      .attr("cx", function(d) { return x(d.experience_level); })
+	      .attr("cy", function(d) { return y(d.salary_in_usd); })
+          .style("fill", function(d) { return color(d.experience_level); })
+          .on("mouseover", function(d){tooltip.text(d); return tooltip.style("visibility", "visible");})
+            .on("mousemove", function(){return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
+            .on("mouseout", function(){return tooltip.style("visibility", "hidden");})
+	      .on("mouseover", function(d){
+        	  d3.selectAll('.dot')
+            	   .filter(function(dot){ 
+                    return (dot.salary_in_usd != d.salary_in_usd) 
+                   })
+                   .transition()
+                   .style("opacity", 0.4)
+          })
+              .on("mouseout", function(d){
+               d3.selectAll('.dot')
+                .filter(function(dot){ 
+                 return (dot.salary_in_usd != d.salary_in_usd) 
+                })
+                .transition()
+                .style("opacity", 1)
+          });
+
+	// Add the Legend
+	  var legend = svg.selectAll(".legend")
+	      .data(color.domain())
+	    .enter().append("g")
+	      .attr("class", "legend")
+	      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+	  legend.append("rect")
+	      .attr("x", width - 18)
+	      .attr("width", 18)
+	      .attr("height", 18)
+	      .style("fill", color);
+
+	  legend.append("text")
+	      .attr("x", width - 24)
+	      .attr("y", 9)
+	      .attr("dy", ".35em")
+	      .style("text-anchor", "end")
+	      .text(function(d) { return d; });
+
+	});
+
+	</script>
+     </div>
+    </div>
+  </div>
+</body>
+</html>
