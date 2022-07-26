@@ -86,7 +86,7 @@
 	d3.csv("https://raw.githubusercontent.com/c3-pbrunet/DVproject/main/ds_salaries_small.csv", function(error, data){
 	  if (error) throw error;
 	  data.forEach(function(d) {
-	    d.work_year = +d.experience_level;
+	    d.experience_level = +d.experience_level;
         d.salary_in_usd = +d.salary_in_usd;
         d.company_size = +d.company_size;
 	  });
@@ -192,7 +192,7 @@
 	d3.csv("https://raw.githubusercontent.com/c3-pbrunet/DVproject/main/ds_salaries_small.csv", function(error, data){
 	  if (error) throw error;
 	  data.forEach(function(d) {
-	    d.work_year = +d.experience_level;
+	    d.experience_level = +d.experience_level;
         d.salary_in_usd = +d.salary_in_usd;
         d.company_size = +d.company_size;
 	  });
@@ -223,7 +223,7 @@
 		.call(yAxis);
 
     });
-    
+
 	</script>
      </div>
     </div>
