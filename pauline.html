@@ -1,6 +1,9 @@
 <!doctype html>
 <head>
   <title>Pauline's Project for CS 416 - Data Viz</title>
+  <link rel="stylesheet" href="DV project/reset step.css">
+  <link rel="stylesheet" href="DV project/step_thru.css">
+  <script src="DV project/step_js.js"></script>
   <script src="http://d3js.org/d3.v3.min.js"></script>
 </head>
 <body>
@@ -192,7 +195,7 @@
 	d3.csv("https://raw.githubusercontent.com/c3-pbrunet/DVproject/main/ds_salaries_small.csv", function(error, data){
 	  if (error) throw error;
 	  data.forEach(function(d) {
-	    d.work_year = +d.experience_level;
+	    d.experience_level = +d.experience_level;
         d.salary_in_usd = +d.salary_in_usd;
         d.company_size = +d.company_size;
       });
@@ -258,10 +261,9 @@
         d.company_size = +d.company_size;
       });
       
-    
 	// Scale the range of the data
-    x.domain(d3.extent(data, function(d) { return d.company_size; })).nice();
-	y.domain(d3.extent(data, function(d) { return d.salary_in_usd; })).nice();
+    x.domain(d3.extent(data, function(d) { return d?.company_size; })).nice();
+	y.domain(d3.extent(data, function(d) { return d?.salary_in_usd; })).nice();
 
 	// Add the X Axis
 	chart3.append("g")
@@ -290,32 +292,35 @@
     var color = d3.scale.category10();
 
     // Add the scatter plot
-	chart3.append("circle")
-	    .attr("class", "dot")
-	    .attr("r", 10)
-	    .attr("cx", function(d) { return x(d.company_size); })
-	    .attr("cy", function(d) { return y(d.salary_in_usd); })
-        .style("fill", function(d) { return color(d.company_size); })     
+    chart3.selectAll(".dot")
+	      .data(data)
+    .enter().append("circle")
+        .attr("class", "dot")
+	    .attr("r", 5)
+	    .attr("cx", function(d) { return x(d?.company_size); })
+	    .attr("cy", function(d) { return y(d?.salary_in_usd); })
+        .style("fill", function(d) { return color(d?.experience_level); })     
 
- 	// Add the Legend
-    var legend = chart3.append(".legend")
-	    .data(color.domain())
-	.enter().append("g")
-	    .attr("class", "legend")
-	    .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+	// Add the Legend
+    var legend = chart3.selectAll(".legend")
+	      .data(color.domain())
+	    .enter().append("g")
+	      .attr("class", "legend")
+	      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
 
-	legend.append("rect")
-	    .attr("x", width - 18)
-	    .attr("width", 18)
-	    .attr("height", 18)
-	    .style("fill", color);
+	  legend.append("rect")
+	      .attr("x", width - 18)
+	      .attr("width", 18)
+	      .attr("height", 18)
+	      .style("fill", color);
 
-	legend.append("text")
-	    .attr("x", width - 24)
-	    .attr("y", 9)
-	    .attr("dy", ".35em")
-	    .style("text-anchor", "end")
-	    .text(function(d) { return d; });
+	  legend.append("text")
+	      .attr("x", width - 24)
+	      .attr("y", 9)
+	      .attr("dy", ".35em")
+	      .style("text-anchor", "end")
+	      .text(function(d) { return d; });
+
    
         
     });
