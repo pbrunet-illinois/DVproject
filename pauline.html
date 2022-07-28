@@ -53,7 +53,7 @@
 
 	<script>
 
-	// Set the dimensions of the canvas / graph
+	// Set the dimensions of the canvas
 	var margin = {top: 50, right: 50, bottom: 50, left: 80},
 	    width = 940 - margin.left - margin.right,
 	    height = 500 - margin.top - margin.bottom;
@@ -86,7 +86,7 @@
 	d3.csv("https://raw.githubusercontent.com/c3-pbrunet/DVproject/main/ds_salaries_small.csv", function(error, data){
 	  if (error) throw error;
 	  data.forEach(function(d) {
-	    d.experience_level = +d.experience_level;
+	    d.work_year = +d.experience_level;
         d.salary_in_usd = +d.salary_in_usd;
         d.company_size = +d.company_size;
 	  });
@@ -180,7 +180,7 @@
 
     });
     
-    // Adds the svg canvas
+    // Add the svg canvas 2
     var	chart2 = d3.select("body")
 	    .append("svg")
 		    .attr("width", width + margin.left + margin.right)
@@ -192,11 +192,11 @@
 	d3.csv("https://raw.githubusercontent.com/c3-pbrunet/DVproject/main/ds_salaries_small.csv", function(error, data){
 	  if (error) throw error;
 	  data.forEach(function(d) {
-	    d.experience_level = +d.experience_level;
+	    d.work_year = +d.experience_level;
         d.salary_in_usd = +d.salary_in_usd;
         d.company_size = +d.company_size;
-	  });
-
+      });
+      
 	// Scale the range of the data
     x.domain(d3.extent(data, function(d) { return d.experience_level; })).nice();
 	y.domain(d3.extent(data, function(d) { return d.salary_in_usd; })).nice();
@@ -223,7 +223,63 @@
 		.call(yAxis);
 
     });
+    
+    // Adds the svg canvas
+    var	chart3 = d3.select("body")
+	.append("svg")
+		.attr("width", width + margin.left + margin.right)
+		.attr("height", height + margin.top + margin.bottom)
+	.append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")"); 
 
+    // Get the data
+	d3.csv("https://raw.githubusercontent.com/c3-pbrunet/DVproject/main/ds_salaries_small.csv", function(error, data){
+	  if (error) throw error;
+	  data.forEach(function(d) {
+	    d.work_year = +d.experience_level;
+        d.salary_in_usd = +d.salary_in_usd;
+        d.company_size = +d.company_size;
+	});
+
+    // Scale the range of the data
+	x.domain(d3.extent(data, function(d) { return d.experience_level; })).nice();
+    y.domain(d3.extent(data, function(d) { return d.salary_in_usd; })).nice();
+    
+    // Add the X Axis
+	svg.append("g")
+	    .attr("class", "x axis")
+	    .attr("transform", "translate(0," + height + ")")
+	    .call(xAxis)
+	.append("text")
+	    .attr("class", "label")
+	    .attr("x", width)
+	    .attr("y", -6)
+	    .style("text-anchor", "middle")
+	    .text("Experience level");
+
+	// Add the Y Axis
+	svg.append("g")
+	    .attr("class", "y axis")
+	    .call(yAxis)
+	.append("text")
+	    .attr("class", "label")
+	    .attr("transform", "rotate(-90)")
+	    .attr("y", 6)
+	    .attr("dy", ".71em")
+	    .style("text-anchor", "end")
+        .text("Salary")
+        
+    });
+        
+    // Add the Scatterplot
+	  svg.selectAll(".dot")
+	      .data(data)
+	    .enter().append("circle")
+	      .attr("class", "dot")
+	      .attr("r", 10)
+	      .attr("cx", function(d) { return x(d.experience_level); })
+	      .attr("cy", function(d) { return y(d.salary_in_usd); })
+          .style("fill", function(d) { return color(d.experience_level); });
 	</script>
      </div>
     </div>
